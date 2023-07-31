@@ -37,7 +37,7 @@ const usePrevious = (value) => {
 }
 
 export const ThemeContext = createContext({
-  theme: 'light',
+  theme: 'dark',
   toggleTheme: () => {},
 })
 
